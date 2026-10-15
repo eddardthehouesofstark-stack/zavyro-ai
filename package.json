@@ -1,0 +1,12 @@
+{
+  "name": "helpdesk-360-frontend-root",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Root workspace proxy for HelpDesk-360 frontend",
+  "scripts": {
+    "dev": "npm --prefix helpdesk-360 run dev",
+    "build": "npm --prefix helpdesk-360 run build",
+    "preview": "npm --prefix helpdesk-360 run preview",
+    "install:app": "npm --prefix helpdesk-360 install"
+  }
+}
